@@ -1,0 +1,15 @@
+asgiref @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_d2wfxoqk8w/croot/asgiref_1724072473040/work
+certifi==2024.8.30
+charset-normalizer==3.3.2
+Django @ file:///home/conda/feedstock_root/build_artifacts/django_1723098445835/work
+django-cors-headers @ file:///home/conda/feedstock_root/build_artifacts/django-cors-headers_1718834443621/work
+django-extensions @ file:///home/conda/feedstock_root/build_artifacts/django-extensions_1685993622656/work
+fhirclient==4.2.0
+hl7apy==1.3.5
+idna==3.8
+python-decouple==3.8
+requests==2.32.3
+setuptools==72.1.0
+sqlparse @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/sqlparse_1699261944171/work
+urllib3==2.2.2
+wheel==0.43.0
