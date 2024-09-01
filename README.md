@@ -1,13 +1,12 @@
-**Project Title:** 
+**Project Title:**
 Adolescent Mental Health Monitoring Web App
 
-**Objective:** 
+**Objective:**
 To develop a web application that allows healthcare providers in Norway to track and manage adolescent mental health data using HL7 standards for secure and standardized communication.
-
 
 **Project Structure**
 
-`
+```
 my_project/
 ├── backend/                      # Main Django project directory
 │   ├── api/                      # Django app directory
@@ -40,4 +39,4 @@ my_project/
 │   ├── .env                      # Environment variables for React (optional)
 │   └── ...                       # Other React configuration files (like .gitignore)
 └── README.md                     # Documentation file (optional)
-`
+```
