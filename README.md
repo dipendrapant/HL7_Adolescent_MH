@@ -2,7 +2,7 @@
 Adolescent Mental Health Monitoring Web App
 
 **Objective:**
-To develop a web application that allows healthcare providers in Norway to track and manage adolescent mental health data using HL7 standards for secure and standardized communication.
+To develop a web application that allows healthcare providers in Norway to track and manage adolescent mental health data using HL7 standards for secure and standardized communication. Implementation is based on the HL7 v2.x standards, which use a specific message structure and encoding (like MSH, PID segments)
 
 **Project Structure**
 

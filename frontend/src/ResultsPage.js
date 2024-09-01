@@ -27,7 +27,7 @@ function ResultsPage() {
             <h3>HL7 Message Segments Explanation</h3>
             <p><strong>MSH</strong>: Message Header - Contains metadata about the message such as the sending application, date, and message type.</p>
             <p><strong>|^~\&</strong>: Field Separator and Encoding Characters - These define how the HL7 message is structured.</p>
-            <p><strong>DjangoApp</strong>: Sending Application - The system or application that generated the message (in this case, your Django app).</p>
+            <p><strong>DjangoApp</strong>: Sending Application - The system or application that generated the message (in this case Django app).</p>
             <p><strong>HealthcareProvider</strong>: Sending Facility - The healthcare facility that is sending the message.</p>
             <p><strong>20240901121706</strong>: Date/Time of Message - The exact date and time when the message was generated.</p>
             <p><strong>ORU^R01</strong>: Message Type - Specifies the type of message; ORU stands for Observation Result, and R01 is the trigger event.</p>
