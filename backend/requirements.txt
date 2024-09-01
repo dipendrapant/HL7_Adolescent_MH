@@ -13,3 +13,4 @@ setuptools==72.1.0
 sqlparse==0.5.0
 urllib3==2.2.2
 wheel==0.43.0
+gunicorn==22.0.0
