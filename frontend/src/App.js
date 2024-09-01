@@ -1,20 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import AssessmentPage from './AssessmentPage';
+import ResultsPage from './ResultsPage';
 
 function App() {
-  const [message, setMessage] = useState('');
-
-  useEffect(() => {
-    fetch('http://127.0.0.1:8000/api/welcome/')
-      .then(response => response.json())
-      .then(data => setMessage(data.message));
-  }, []);
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>{message}</p>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/results" element={<ResultsPage />} />
+        <Route path="/" element={<AssessmentPage />} />
+      </Routes>
+    </Router>
   );
 }
 
