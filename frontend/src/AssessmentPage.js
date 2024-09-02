@@ -124,6 +124,7 @@ function AssessmentPage() {
         </div>
         <button type="submit" style={styles.button}>Submit</button>
       </form>
+              <p>&copy; 2024 Test</p>
     </div>
   );
 }
