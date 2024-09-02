@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hl7-adolescent-api.onrender.com']
 
 
 # Application definition
@@ -57,7 +57,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    config('CORS_ALLOWED_ORIGINS', default='http://localhost:3000'),
+    config('https://hl7-adolescent-mh.onrender.com'),
 ]
 
 
