@@ -22,12 +22,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = 'django-insecure-)!!)@9-oa!+0(&imf(30b@^ul=lb=seek-shq*w1tu@j1ctf%p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['hl7-adolescent-api.onrender.com']
+ALLOWED_HOSTS = ['hl7-adolescent-api.onrender.com', 'hl7mhnorway-dipendrapants-projects.vercel.app']
 
 
 # Application definition
@@ -56,8 +56,7 @@ MIDDLEWARE = [
     
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    config('CORS_ALLOWED_ORIGINS', default='http://localhost:3000'),
+CORS_ALLOWED_ORIGINS = ['https://hl7mhnorway-dipendrapants-projects.vercel.app',
 ]
 
 
