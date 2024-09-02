@@ -24,6 +24,8 @@ def assessment_view(request):
             patient_name = data.get('patient_name')
             patient_gender = data.get('patient_gender')
 
+            logger.debug(f"phq9_score: {phq9_score}, patient_id: {patient_id}, patient_name: {patient_name}, patient_gender: {patient_gender}")
+
             # Validate inputs
             if not phq9_score or not phq9_score.isdigit() or not (0 <= int(phq9_score) <= 27):
                 logger.error("Invalid PHQ-9 score")
@@ -46,6 +48,5 @@ def assessment_view(request):
             return JsonResponse({"error": "Invalid JSON"}, status=400)
     logger.error("Invalid request method")
     return JsonResponse({"error": "Invalid request method"}, status=405)
-
 
 
