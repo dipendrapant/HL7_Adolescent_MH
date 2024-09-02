@@ -41,3 +41,5 @@ my_project/
 │   └── ...                       # Other React configuration files (like .gitignore)
 └── README.md                     # Documentation file (optional)
 ```
+
+**Deployed app is at:** `https://hl7mhnorway-dipendrapants-projects.vercel.app`
