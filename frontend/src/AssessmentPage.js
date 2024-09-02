@@ -50,7 +50,7 @@ function AssessmentPage() {
     }
 
     try {
-      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/assessment/`, {
+      const response = await axios.post(`https://hl7mhnorway-dipendrapants-projects.vercel.app/api/assessment/`, {
         phq9_score: score,
         patient_id: patientId,
         patient_name: patientName,
