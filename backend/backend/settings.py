@@ -56,7 +56,7 @@ MIDDLEWARE = [
     
 ]
 
-CORS_ALLOWED_ORIGINS = ['https://hl7-adolescent-mh.onrender.com',
+CORS_ALLOWED_ORIGINS = ['https://hl7mhnorway-dipendrapants-projects.vercel.app',
 ]
 
 
