@@ -48,6 +48,7 @@ function AssessmentPage() {
       alert('Please fix the errors before submitting.');
       return;
     }
+    console.log('POSTing to:');
 
     try {
       const response = await axios.post(`https://hl7-adolescent-mh.onrender.com/api/assessment/`, {
@@ -56,8 +57,10 @@ function AssessmentPage() {
         patient_name: patientName,
         patient_gender: patientGender,
       });
+      console.log('Response:', response.data);
       navigate('/results', { state: { hl7Message: response.data.hl7_message } });
     } catch (error) {
+      console.error('There was an error!', error);
       if (error.response) {
         console.error('Error:', error.response.data.error);
         alert(`Error: ${error.response.data.error}`);
