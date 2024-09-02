@@ -56,8 +56,7 @@ MIDDLEWARE = [
     
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    config('https://hl7-adolescent-mh.onrender.com'),
+CORS_ALLOWED_ORIGINS = ['https://hl7-adolescent-mh.onrender.com',
 ]
 
 
