@@ -15,6 +15,7 @@ my_project/
 │   │   ├── apps.py
 │   │   ├── migrations/
 │   │   │   └── __init__.py
+│   │   ├── hl7_utils.py
 │   │   ├── models.py
 │   │   ├── tests.py
 │   │   ├── urls.py               # App-level urls.py (routes for the `api` app)
@@ -36,7 +37,7 @@ my_project/
 │   │   ├── index.js              # React entry point
 │   │   └── ...                   # Other React components
 │   ├── package.json              # npm package configuration for React
-│   ├── .env                      # Environment variables for React (optional)
+│   ├── .env                      # Environment variables for React
 │   └── ...                       # Other React configuration files (like .gitignore)
 └── README.md                     # Documentation file (optional)
 ```
