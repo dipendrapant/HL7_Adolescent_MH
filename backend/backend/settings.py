@@ -57,7 +57,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://hl7mhnorway-dipendrapants-projects.vercel.app",
+    config('CORS_ALLOWED_ORIGINS', default='http://localhost:3000'),
 ]
 
 
