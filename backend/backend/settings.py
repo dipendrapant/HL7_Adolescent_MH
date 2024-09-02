@@ -57,7 +57,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://hl7mhnorway-dipendrapants-projects.vercel.app/",
+    "https://hl7mhnorway-dipendrapants-projects.vercel.app",
 ]
 
 
