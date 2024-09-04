@@ -21,6 +21,7 @@ db.sqlite3
 # Conda environment
 venv/
 .venv/
+Hl7_env/
 
 # Environment variables
 .env
