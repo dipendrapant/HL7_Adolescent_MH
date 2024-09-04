@@ -51,7 +51,7 @@ function AssessmentPage() {
     console.log('POSTing to:');
 
     try {
-      const response = await axios.post(`https://hl7-adolescent-mh.onrender.com/api/assessment/`, {
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/assessment/`, {
         phq9_score: score,
         patient_id: patientId,
         patient_name: patientName,
