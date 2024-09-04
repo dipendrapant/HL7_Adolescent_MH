@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['hl7-adolescent-api.onrender.com', 'hl7mhnorway-dipendrapants-projects.vercel.app', '127.0.0.1']
+ALLOWED_HOSTS = ['hl7-adolescent-api.onrender.com', 'hl7mh.vercel.app/', '127.0.0.1']
 
 
 # Application definition
@@ -57,8 +57,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://hl7-adolescent-api.onrender.com',
-    'https://hl7mhnorway-dipendrapants-projects.vercel.app',
+    'https://hl7mh.vercel.app/',
     'http://127.0.0.1:8000',
 ]
 
