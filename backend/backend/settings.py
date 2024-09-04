@@ -56,7 +56,12 @@ MIDDLEWARE = [
     
 ]
 
-CORS_ALLOWED_ORIGINS = [config('CORS_ALLOWED_ORIGINS')]
+CORS_ALLOWED_ORIGINS = [
+    'https://hl7-adolescent-api.onrender.com',
+    'https://hl7mhnorway-dipendrapants-projects.vercel.app',
+    'http://127.0.0.1:8000',
+]
+
 
 ROOT_URLCONF = 'backend.urls'
 
