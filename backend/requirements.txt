@@ -1,5 +1,5 @@
 asgiref==3.8.1
-bzip2==1.0.8
+bzip2==1.6.0
 django==5.1
 expat==2.6.2
 libcxx==14.0.6
